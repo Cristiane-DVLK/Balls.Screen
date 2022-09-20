@@ -1,0 +1,435 @@
+     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+        body {
+        font: 1em;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+    }
+    .stage {
+        border-bottom: 3px; /*solid #dcdcdc;*/
+        display: flex;
+        height: 480px;
+        width: 100%;
+    }
+    .ball1 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #Fbb8b8;
+        height: 200px;
+        margin: 0 15px 0 auto;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        margin-left: auto;
+  		border-radius: 50%;
+  		width: 50px;
+  		height: 50px;
+
+    }
+
+    .ball1 {
+        animation-name: ball1;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+    @keyframes ball1 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(-2,0)     translateY(0); }
+    }
+
+    .ball2 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #faafd2;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+
+    }
+    .ball2 { 
+        animation-name: ball2;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball2 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(-1,1)      translateY(0); }
+        100% { transform: scale(1,2)      translateY(0); }
+
+
+    }
+
+    .ball3 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #fbaaef;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball3 { 
+        animation-name: ball3;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball3 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(-2,0)     translateY(0); }
+    }
+
+    .ball4 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #dfaefc;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball4 { 
+        animation-name: ball4;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball4 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(-1,1)      translateY(0); }
+        100% { transform: scale(1,4)      translateY(0); }
+    }
+
+.ball5 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #c0c0fc;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball5 { 
+        animation-name: ball5;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball5 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(-2,0)     translateY(0); }
+    }
+
+.ball6 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #bfe4fd;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball6 { 
+        animation-name: ball6;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball6 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(-1,1)      translateY(0); }
+        100% { transform: scale(1,6)      translateY(0); }
+    }
+
+.ball7 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #a8fced;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball7 { 
+        animation-name: ball7;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball7 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(-2,0)     translateY(0); }
+    }
+
+.ball8 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #c5fdc4;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball8 { 
+        animation-name: ball8;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball8 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(-1,1)      translateY(0); }
+        100% { transform: scale(1,8)      translateY(0); }
+    }
+
+
+    .ball9 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #effca9;
+        height: 200px;
+        margin: 0 15px 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball9 { 
+        animation-name: ball9;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball9 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(-2,0)     translateY(0); }
+    }
+
+
+    .ball10 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #fcd6a8;  
+        height: 200px;
+        margin: 0 auto 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: auto;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball10 { 
+        animation-name: ball10;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball10 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(-1,1)      translateY(0); }
+        100% { transform: scale(1,9)      translateY(0); }
+    }
+
+/*.ball11 {        
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: #fcf449;  
+        height: 200px;
+        margin: 0 auto 0 15px;
+        transform-origin: bottom;
+        width: 200px;
+        margin-right: 50px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ 
+    }
+    .ball11 { 
+        animation-name: ball11;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+
+        @keyframes ball11 {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(1,99)      translateY(0); }
+    }*/
+    
+
+footer {
+    background: linear-gradient(#FEFEFE, lightcyan);
+    font-family: 'Quicksand', sans-serif;
+    color: lightskyblue; 
+    text-align: center;
+    /*position: fixed;*/
+    margin: 0px 0px 0px 0px;
+    padding: 5px 1px 25px 1px;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;     
+ }
+
+.contato {
+    text-align: center;
+}
+
+
+.linkedin{
+    width: 35px;
+    height: 35px;
+    padding-top: 35px;
+}
+
+    .linkedin:hover {
+        transition: 0.7s;
+        transform: scale(1.5);
+    }
+
+.github {
+    width: 29px;
+    height: 29px;
+        padding-top: 35px;
+}
+
+    .github:hover {
+        transition: 0.7s;
+        transform: scale(1.5);
+    }
+
+
+#rodape1 {
+    font-size: 11px;
+    text-decoration: none;
+    color: #10bfff;
+}
+
+    #rodape1:hover {
+        transition: 0.7s;
+        transform: scale(1.3);
+        color: steelblue; 
+    }
+
+/*#rodape2 {
+    font-size: 9px;
+    text-decoration: none;
+    color: #42A5F5;
+}
+
+    #rodape2:hover {
+          transition: 0.7s;
+          transform: scale(1.5);    
+          color: lightskyblue;           
+    }
+
+    @media (min-width: 321px) {
+    body {
+        width: auto;
+        height: 90vh;
+    }
+    .stage {
+        width: auto;
+    }
+}*/
